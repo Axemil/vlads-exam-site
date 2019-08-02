@@ -1,6 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Автор сайт Владислав Кордонец, сылка на сайт: 
+
+## Этот сайт был сделан для экзамена в академии Шаг
 
 In the project directory, you can run:
 
