@@ -37,11 +37,11 @@ export class Header extends Component {
             </h4>
           </Nav>
           <Nav>
-            <a style={{margin:'10px'}} target="_blank"  href="https://github.com/Axemil/vlads-exam-site">
-              <FontAwesomeIcon className="nav-items icons" icon={faGithub} />
+            <a className="icons" style={{margin:'10px'}} target="_blank"  href="https://github.com/Axemil/vlads-exam-site">
+              <FontAwesomeIcon className="nav-items" icon={faGithub} />
             </a>
-            <a style={{margin:'10px'}} target="_blank" href="https://t.me/axemilon">
-              <FontAwesomeIcon className="nav-items icons" icon={faTelegram} />
+            <a className="icons" style={{margin:'10px'}} target="_blank" href="https://t.me/axemilon">
+              <FontAwesomeIcon className="nav-items" icon={faTelegram} />
             </a>
           </Nav>
         </Navbar>
