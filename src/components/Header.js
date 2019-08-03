@@ -38,10 +38,10 @@ export class Header extends Component {
           </Nav>
           <Nav>
             <a className="icons" style={{margin:'10px'}} target="_blank"  href="https://github.com/Axemil/vlads-exam-site">
-              <FontAwesomeIcon className="nav-items" icon={faGithub} />
+              <FontAwesomeIcon className="nav-items icons" icon={faGithub} />
             </a>
             <a className="icons" style={{margin:'10px'}} target="_blank" href="https://t.me/axemilon">
-              <FontAwesomeIcon className="nav-items" icon={faTelegram} />
+              <FontAwesomeIcon className="nav-items icons" icon={faTelegram} />
             </a>
           </Nav>
         </Navbar>

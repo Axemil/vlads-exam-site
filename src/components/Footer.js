@@ -5,7 +5,7 @@ export class Footer extends Component {
   render() {
     return (
       <Navbar bg="dark">
-        <Button style={{margin: 'auto'}} variant="dark"><h4>&copy; 2019 Ban team</h4></Button>
+        <Button style={{margin: 'auto'}} variant="dark"><h4><a style={{color: 'whitesmoke', textDecoration: 'none'}} href="https://github.com/Axemil">&copy; 2019 Ban team</a></h4></Button>
       </Navbar>
     );
   }
