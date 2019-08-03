@@ -15,6 +15,9 @@ export class MainBurgerMenu extends Component {
             </Button>
           </span>
           <div className="list-links">
+            <Link style={{ color: "whitesmoke" }} to="/">
+              <p>Home</p>
+            </Link>
             <Link style={{ color: "whitesmoke" }} to="/project1">
               <p>Project#1</p>
             </Link>
