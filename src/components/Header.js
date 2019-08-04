@@ -30,10 +30,10 @@ export class Header extends Component {
           </Navbar.Brand>
           <Nav className="mr-auto">
             <h4 className="nav-items">
-              <Link style={{color: "whitesmoke", textDecoration: 'none'}} to="/project1">Project #1</Link>
+              <Link className="nav-items" style={{ textDecoration: 'none'}} to="/project1">Project #1</Link>
             </h4>
             <h4 className="nav-items">
-              <Link style={{color: "whitesmoke", textDecoration: 'none'}} to="/project2">Project #2</Link>
+              <Link className="nav-items" style={{ textDecoration: 'none'}} to="/project2">Project #2</Link>
             </h4>
           </Nav>
           <Nav>

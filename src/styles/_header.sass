@@ -1,6 +1,9 @@
+$SkyBlueColor: #0099ff
 header
   color: whitesmoke
   font-size: 26px
+
+//Бургер меню
 .active-menu
   overflow: hidden
 .burger-menus
@@ -17,16 +20,6 @@ header
   margin: 0 0 0 250px
 .burger-menus-active
   left: 0px
-.list-links
-  display: flex
-  flex-direction: column
-.list-links p
-  padding: 20px
-  border-bottom: 1px solid #222 
-  margin: 10px 20px
-.list-links p:hover
-  background: #444
-  transition: .8s
 .overlay
   display: none
   position: absolute
@@ -37,6 +30,18 @@ header
   background: rgba(0,0,0,0.4);
 .overlay-active
   display: block
+
+//Header стили
+.list-links
+  display: flex
+  flex-direction: column
+.list-links p
+  padding: 20px
+  border-bottom: 1px solid #222 
+  margin: 10px 20px
+.list-links p:hover
+  background: #444
+  transition: .8s
 .logo
   padding: 0 0 0 30px
   font-size: 26px
@@ -46,20 +51,22 @@ header
   margin: 0
 .logo:hover .logo-item
   transition: .3s
-  color: #0099ff
+  color: $SkyBlueColor
 .nav-items
   margin: 0
   color: whitesmoke
 .nav-items:hover
   transition: .3s
-  color: #0099ff
+  color: $SkyBlueColor
 .nav-items.icons
   font-size: 40px
 h4.nav-items
   padding: 0 10px
 .nav-items h4:hover
   transition: .3s
-  color: #0099ff
+  color: $SkyBlueColor
+
+//Брейк-поинты
 @media (max-width: 640px)
   h4.nav-items
     display: none

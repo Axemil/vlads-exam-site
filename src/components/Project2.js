@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
-
+import React, { Component } from "react";
+import AbsoluteWrapper from "./AbsoluteWrapper";
 export class Project2 extends Component {
   render() {
     return (
-      <div>
-        <h1>#2</h1>
-      </div>
-    )
+      <AbsoluteWrapper>
+        <div>
+          <h1>#2</h1>
+        </div>
+      </AbsoluteWrapper>
+    );
   }
 }
 
-export default Project2
+export default Project2;

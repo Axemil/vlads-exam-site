@@ -15,24 +15,24 @@ export class MainBurgerMenu extends Component {
             </Button>
           </span>
           <div className="list-links">
-            <Link style={{ color: "whitesmoke" }} to="/">
+            <Link style={{ color: "whitesmoke", textDecoration: 'none' }} to="/">
               <p>Home</p>
             </Link>
-            <Link style={{ color: "whitesmoke" }} to="/project1">
+            <Link style={{ color: "whitesmoke", textDecoration: 'none' }} to="/project1">
               <p>Project#1</p>
             </Link>
-            <Link style={{ color: "whitesmoke" }} to="/project2">
+            <Link style={{ color: "whitesmoke", textDecoration: 'none' }} to="/project2">
               <p>Project#2</p>
             </Link>
             <a
-              style={{ color: "whitesmoke" }}
+              style={{ color: "whitesmoke", textDecoration: 'none' }}
               target="_blank"
               href="https://github.com/Axemil/vlads-exam-site"
             >
               <p>Github</p>
             </a>
             <a
-              style={{ color: "whitesmoke" }}
+              style={{ color: "whitesmoke", textDecoration: 'none' }}
               target="_blank"
               href="https://t.me/axemilon"
             >
