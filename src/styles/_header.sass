@@ -22,7 +22,8 @@ header
   left: 0px
 .overlay
   display: none
-  position: absolute
+  z-index: 9
+  position: fixed
   width: 100vw
   height: 100vh
   top: 0
@@ -44,7 +45,7 @@ header
   transition: .8s
 .logo
   padding: 0 0 0 30px
-  font-size: 26px
+  font-size: 23px
   display: flex
   align-items: center
 .logo h2
@@ -59,7 +60,7 @@ header
   transition: .3s
   color: $SkyBlueColor
 .nav-items.icons
-  font-size: 40px
+  font-size: 30px
 h4.nav-items
   padding: 0 10px
 .nav-items h4:hover

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AbsoluteWrapper from "./AbsoluteWrapper";
+import AbsoluteWrapper from "../siteComponents/AbsoluteWrapper";
 export class Project1 extends Component {
   render() {
     return (

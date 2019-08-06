@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.sass";
 import "normalize.css";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import Header from "./components/sections/Header";
+import MainContent from "./components/sections/MainContent";
+import Footer from "./components/sections/Footer";
 
 function App() {
   return (

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Button } from "react-bootstrap";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 export class MainBurgerMenu extends Component {
@@ -27,6 +25,7 @@ export class MainBurgerMenu extends Component {
             <a
               style={{ color: "whitesmoke", textDecoration: 'none' }}
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Axemil/vlads-exam-site"
             >
               <p>Github</p>
@@ -34,6 +33,7 @@ export class MainBurgerMenu extends Component {
             <a
               style={{ color: "whitesmoke", textDecoration: 'none' }}
               target="_blank"
+              rel="noopener noreferrer"
               href="https://t.me/axemilon"
             >
               <p>Telegram</p>

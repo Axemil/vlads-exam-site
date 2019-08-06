@@ -7,7 +7,7 @@ class AccordionComponent extends React.Component {
       <>
         <Carousel>
           {this.props.arrayAccordion.map(item => (
-            <Carousel.Item>
+            <Carousel.Item key={item.id}>
               <img
                 className="d-block w-100 carousel__img"
                 src={item.url}

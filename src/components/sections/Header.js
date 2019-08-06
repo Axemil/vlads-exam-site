@@ -6,8 +6,8 @@ import {
   faGithub,
   faTelegram
 } from "@fortawesome/free-brands-svg-icons";
-import BurgerMenu from "./BurgerMenu";
-import MainBurgerMenu from "./MainBurgerMenu";
+import BurgerMenu from "../siteComponents/BurgerMenu";
+import MainBurgerMenu from "../siteComponents/MainBurgerMenu";
 import { Link } from "react-router-dom";
 
 export class Header extends Component {
@@ -22,7 +22,7 @@ export class Header extends Component {
             <Link style={{color: "whitesmoke", textDecoration: 'none'}} className="logo" to="/">
               <FontAwesomeIcon
                 className="logo-item"
-                style={{ fontSize: "40px", margin: "0 3px" }}
+                style={{ fontSize: "30px", margin: "0 3px" }}
                 icon={faReact}
               />
               <h2>Ban team</h2>
@@ -37,10 +37,10 @@ export class Header extends Component {
             </h4>
           </Nav>
           <Nav>
-            <a className="icons" style={{margin:'10px'}} target="_blank"  href="https://github.com/Axemil/vlads-exam-site">
+            <a rel="noopener noreferrer" className="icons" style={{margin:'5px 10px'}} target="_blank"  href="https://github.com/Axemil/vlads-exam-site">
               <FontAwesomeIcon className="nav-items icons" icon={faGithub} />
             </a>
-            <a className="icons" style={{margin:'10px'}} target="_blank" href="https://t.me/axemilon">
+            <a rel="noopener noreferrer" className="icons" style={{margin:'5px 10px'}} target="_blank" href="https://t.me/axemilon">
               <FontAwesomeIcon className="nav-items icons" icon={faTelegram} />
             </a>
           </Nav>
