@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { Route, Switch, __RouterContext } from "react-router-dom";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 import { HomePage } from "../pages/HomePage";
 import { Project1 } from "../pages/Project1";
 import { Project2 } from "../pages/Project2";
