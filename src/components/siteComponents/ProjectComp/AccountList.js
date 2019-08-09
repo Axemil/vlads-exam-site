@@ -8,7 +8,7 @@ export class AccountList extends Component {
       <Row className="row__class">
         {this.props.accountList.map(item => (
           <Col className="card__col">
-            <AccountItem info={item}/>
+            <AccountItem delAccount={this.props.delAccount} info={item}/>
           </Col>
         ))}
       </Row>
