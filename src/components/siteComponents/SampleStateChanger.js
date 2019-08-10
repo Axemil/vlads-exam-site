@@ -96,7 +96,7 @@ export class SampleStateChanger extends Component {
           >
             Increase on N counter (by default 1)
             <Button style={{ margin: "0 0 0 15px" }} variant="outline-primary">
-              Прибавить
+              Increase
             </Button>
           </ListGroup.Item>
           <ListGroup.Item

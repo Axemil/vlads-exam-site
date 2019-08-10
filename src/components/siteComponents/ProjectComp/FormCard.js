@@ -24,8 +24,9 @@ export class FormCard extends Component {
       password: this.state.passwordForm,
       address: this.state.addressForm,
       city: this.state.cityForm,
-      zip: this.state.zipForm
-    })
+      zip: this.state.zipForm,
+      date: new Date()
+    });
     this.setState({
       emailForm: "",
       passwordForm: "",
