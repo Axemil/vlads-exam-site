@@ -10,7 +10,8 @@ export class FormCard extends Component {
       passwordForm: "",
       addressForm: "",
       cityForm: "",
-      zipForm: ""
+      zipForm: "",
+      counter: 1
     };
   }
   //Получение и запись в во временный объект с формы
@@ -25,14 +26,16 @@ export class FormCard extends Component {
       address: this.state.addressForm,
       city: this.state.cityForm,
       zip: this.state.zipForm,
-      date: new Date()
+      date: new Date(),
+      counter: this.state.counter
     });
     this.setState({
       emailForm: "",
       passwordForm: "",
       addressForm: "",
       cityForm: "",
-      zipForm: ""
+      zipForm: "",
+      counter: this.state.counter + 1
     });
   };
   render() {
@@ -48,7 +51,7 @@ export class FormCard extends Component {
             <Form.Control
               onChange={this.getOnChange}
               type="text"
-              placeholder="Enter email"
+              placeholder="Email"
               value={this.state.emailForm}
             />
           </Form.Group>
@@ -68,7 +71,7 @@ export class FormCard extends Component {
           <Form.Label>Address</Form.Label>
           <Form.Control
             onChange={this.getOnChange}
-            placeholder="1234 Main St"
+            placeholder="Address"
             value={this.state.addressForm}
           />
         </Form.Group>
@@ -79,6 +82,7 @@ export class FormCard extends Component {
             <Form.Control
               onChange={this.getOnChange}
               type="text"
+              placeholder="City"
               value={this.state.cityForm}
             />
           </Form.Group>
@@ -87,6 +91,8 @@ export class FormCard extends Component {
             <Form.Label>Zip</Form.Label>
             <Form.Control
               onChange={this.getOnChange}
+              type="text"
+              placeholder="Zip"
               value={this.state.zipForm}
             />
           </Form.Group>

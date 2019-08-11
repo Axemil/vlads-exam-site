@@ -5,7 +5,7 @@ import AccountItem from "./AccountItem";
 export class AccountList extends Component {
   render() {
     return (
-      <Row className="row__class">
+      <Row>
         {this.props.accountList.map(item => (
           <Col className="card__col">
             <AccountItem delAccount={this.props.delAccount} info={item}/>

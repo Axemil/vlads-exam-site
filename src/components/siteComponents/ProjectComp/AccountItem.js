@@ -13,6 +13,7 @@ export class AccountItem extends Component {
           <ListGroup.Item>Address: {this.props.info.address}</ListGroup.Item>
           <ListGroup.Item>City: {this.props.info.city}</ListGroup.Item>
           <ListGroup.Item>Zip: {this.props.info.zip}</ListGroup.Item>
+          <ListGroup.Item>Count: {this.props.info.counter}</ListGroup.Item>
           <ListGroup.Item>
             Date: {this.addZero(this.props.info.date.getDate())}.
             {this.addZero(this.props.info.date.getMonth() + 1)}.
