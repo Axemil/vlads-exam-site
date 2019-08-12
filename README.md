@@ -1,8 +1,8 @@
 
-## Автор сайт Владислав Кордонец, сылка на сайт: [сылка](https://vladsexamsite.netlify.com/) 
+## Author of site Vladislav Kordonets, link to site: [link](https://vladsexamsite.netlify.com/) 
 
 ### This site was made for education :)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**The information will be added further**
 
 
