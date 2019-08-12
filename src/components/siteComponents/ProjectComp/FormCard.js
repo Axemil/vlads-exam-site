@@ -98,10 +98,6 @@ export class FormCard extends Component {
           </Form.Group>
         </Form.Row>
 
-        <Form.Group id="formGridCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
-
         <Button type="submit" variant="primary">
           Create new account
         </Button>
